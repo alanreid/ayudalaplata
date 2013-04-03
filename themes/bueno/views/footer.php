@@ -61,6 +61,10 @@
 					Event::run('ushahidi_action.nav_main_bottom');
 					?>
 
+					<li>
+						<a href="mailto:info@ayudalaplata.org">info@ayudalaplata.org</a>
+					</li>
+
 				</ul>
 				<?php if ($site_copyright_statement != ''): ?>
 	      		<p><?php echo $site_copyright_statement; ?></p>
