@@ -73,6 +73,10 @@
 			<?php echo $submit_btn; ?>
 			<!-- / submit incident -->
 
+      <h3 style="font-size:16px; margin-top:10px; float:right; clear:right">
+        Número de emergencia: <span style="display:block; font-size:21px; text-align:center">0800 999 5959</span>
+      </h3>
+
 		</div>
 		<!-- / header -->
         <!-- / header item for plugins -->
