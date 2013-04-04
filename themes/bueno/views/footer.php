@@ -62,6 +62,10 @@
 					?>
 
 					<li>
+						<a href="http://ayudalaplata.org/page/index/1">Términos de uso</a>
+					</li>
+
+					<li>
 						<a href="mailto:info@ayudalaplata.org">info@ayudalaplata.org</a>
 					</li>
 
