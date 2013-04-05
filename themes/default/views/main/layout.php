@@ -10,7 +10,7 @@
 
 		<!-- right column -->
 		<div id="right" class="clearingfix">
-			
+
 			<?php
 			// Action::main_sidebar_pre_filters - Add Items to the Entry Page before filters
 			Event::run('ushahidi_action.main_sidebar_pre_filters');
@@ -86,7 +86,7 @@
 								    ? url::convert_uploaded_to_abs($child_info[2])
 								    : NULL;
 								$child_description = htmlentities(Category_Lang_Model::category_description($child), ENT_QUOTES, "UTF-8");
-								
+
 								$color_css = 'class="swatch" style="background-color:#'.$child_color.'"';
 								if ($child_info[2] != NULL)
 								{
@@ -116,7 +116,7 @@
 			<?php if ($layers): ?>
 				<!-- Layers (KML/KMZ) -->
 				<div class="cat-filters clearingfix" style="margin-top:20px;">
-					<strong><?php echo Kohana::lang('ui_main.layers_filter');?> 
+					<strong><?php echo Kohana::lang('ui_main.layers_filter');?>
 						<span>
 							[<a href="javascript:toggleLayer('kml_switch_link', 'kml_switch')" id="kml_switch_link">
 								<?php echo Kohana::lang('ui_main.hide'); ?>
@@ -136,7 +136,7 @@
 						$layer_link = ( ! $layer_url)
 						    ? url::base().Kohana::config('upload.relative_directory').'/'.$layer_file
 						    : $layer_url;
-						
+
 						echo '<li>'
 						    . '<a href="#" id="layer_'. $layer .'">'
 						    . '<span class="swatch" style="background-color:#'.$layer_color.'"></span>'
@@ -148,7 +148,7 @@
 				</ul>
 				<!-- /Layers -->
 			<?php endif; ?>
-			
+
 			<?php
 			// Action::main_sidebar_post_filters - Add Items to the Entry Page after filters
 			Event::run('ushahidi_action.main_sidebar_post_filters');
@@ -175,7 +175,7 @@
 							<?php endforeach; ?>
 						</div>
 						<?php endif; ?>
-						
+
 						<!-- External Apps -->
 						<?php if (count($external_apps) > 0): ?>
 						<div style="margin-bottom:10px;">
@@ -220,7 +220,7 @@
 			<?php endif; ?>
 
 			<!-- / additional content -->
-			
+
 			<!-- Checkins -->
 			<?php if (Kohana::config('settings.checkins')): ?>
 			<br/>
@@ -230,15 +230,15 @@
 			</div>
 			<?php endif; ?>
 			<!-- /Checkins -->
-			
+
 			<?php
 			// Action::main_sidebar - Add Items to the Entry Page Sidebar
 			Event::run('ushahidi_action.main_sidebar');
 			?>
-	
+
 		</div>
 		<!-- / right column -->
-	
+
 		<!-- content column -->
 		<div id="content" class="clearingfix">
 			<div class="floatbox">
@@ -249,7 +249,7 @@
 						<strong><?php echo Kohana::lang('ui_main.filters'); ?></strong>
 						<ul>
 							<li><a id="media_0" class="active" href="#"><span><?php echo Kohana::lang('ui_main.all'); ?></span></a></li>
-							<li><a id="media_4" href="#"><span><?php echo Kohana::lang('ui_main.news'); ?></span></a></li>
+							<li><a id="media_4" href="#"><span><?php echo Kohana::lang('ui_main.news'); ?></span></a></li-->
 							<li><a id="media_1" href="#"><span><?php echo Kohana::lang('ui_main.pictures'); ?></span></a></li>
 							<li><a id="media_2" href="#"><span><?php echo Kohana::lang('ui_main.video'); ?></span></a></li>
 						</ul>
@@ -263,7 +263,7 @@
 				</div>
 				<!-- / filters -->
 
-				<?php								
+				<?php
 				// Map and Timeline Blocks
 				echo $div_map;
 				echo $div_timeline;

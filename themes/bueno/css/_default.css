@@ -248,13 +248,13 @@ div.footermenu ul li a {
 #logo {
   background:none !important;
   padding:0 !important;
-  margin:35px 0 0 0 !important;
+  margin:35px 0 0 20px !important;
 }
 
 div.submit-incident {
   margin: 0 !important;
   top: 90px !important;
-  right: 13px !important;
+  right: 33px !important;
   text-indent:-500px;
   overflow:hidden;
 }
@@ -277,6 +277,10 @@ div.submit-incident a:active {
 #emerg {
   position: absolute;
   top: 40px;
-  right: 12px;
+  right: 33px;
+}
+
+div.graph-holder {
+  height:30px !important;
 }
 
