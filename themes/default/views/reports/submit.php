@@ -15,6 +15,13 @@
 		<input type="hidden" name="incident_zoom" id="incident_zoom" value="<?php echo $form['incident_zoom']; ?>" />
 		<div class="big-block">
 			<h1><?php echo Kohana::lang('ui_main.reports_submit_new'); ?></h1>
+			<div class="red-box">
+				<h3>Importante!</h3>
+				<ul>
+					<li>Este sitio NO es un reemplazo de los servicios de emergencia proporcionados por las autoridades.</li>
+					<li>ver <a target="_blank" href="http://ayudalaplata.org/page/index/1">términos de uso</a></li>
+				</ul>
+			</div>
 			<?php if ($form_error): ?>
 			<!-- red-box -->
 			<div class="red-box">
