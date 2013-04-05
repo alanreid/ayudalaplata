@@ -1,6 +1,6 @@
 /*
 Theme Name: Bueno
-Description: Repurposing the woothemes.com's Bueno Wordpress theme into an Ushahidi Theme. 
+Description: Repurposing the woothemes.com's Bueno Wordpress theme into an Ushahidi Theme.
 Demo: http://www.woothemes.com/2009/11/bueno/
 Version: 1.0
 Author: Caleb Bell
@@ -10,7 +10,7 @@ Author Email: caleb@ushahidi.com
 
 /* Theme Settings
 --------------------*/
-  
+
   /* Primary Color */
   h1, a,
   table.table-list tbody tr td a,
@@ -21,7 +21,7 @@ Author Email: caleb@ushahidi.com
   div.submit-incident a, .btn_submit,
   div.filters ul li a:hover, div.filters ul li a.active,
   ul.category-filters li a:hover, ul.category-filters li a.active { background-color:#d75c60; }
-  
+
   /* Lighter Primary Color - for hover effects */
   div#loggedin_user_action a, div#loggedin_user_action a:visited { color:#f3686d; }
   div.submit-incident a:hover, .btn_submit:hover,
@@ -29,13 +29,13 @@ Author Email: caleb@ushahidi.com
   div#mainmenu ul,
   div#mainmenu ul li a:hover,
   div#mainmenu a.active { border-color:#f3686d; }
-  
+
   /* Accent Color - used on the primary nav and in the footer area */
   div#mainmenu,
   div#mainmenu ul li a,
   div.additional-content { border-color:#FBDDDF; }
   div#underfooter { background:#FBDDDF; }
-  
+
   /* Page Background Pattern */
   /*----------------------*/
   body#page { background: transparent url("../images/bodytile.jpg") repeat; }
@@ -238,3 +238,45 @@ div.footermenu ul li a {
 .additional-credits {
   margin-top: 18px;
 }
+
+
+#header {
+  background:#ee4149;
+  height:183px !important;
+}
+
+#logo {
+  background:none !important;
+  padding:0 !important;
+  margin:35px 0 0 0 !important;
+}
+
+div.submit-incident {
+  margin: 0 !important;
+  top: 90px !important;
+  right: 13px !important;
+  text-indent:-500px;
+  overflow:hidden;
+}
+
+div.submit-incident a {
+  padding:0 !important;
+  background:url(../images/btn.png) no-repeat !important;
+  width:222px !important;
+  height:48px;
+}
+
+div.submit-incident a:hover {
+  background-position:0 -47px !important
+}
+
+div.submit-incident a:active {
+  background-position:0 -95px !important
+}
+
+#emerg {
+  position: absolute;
+  top: 40px;
+  right: 12px;
+}
+

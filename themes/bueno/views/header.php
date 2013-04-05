@@ -58,24 +58,15 @@
 		<!-- header -->
 		<div id="header">
 
-			<!-- logo -->
-			<?php if ($banner == NULL): ?>
 			<div id="logo">
-				<h1><a href="<?php echo url::site();?>"><?php echo $site_name; ?></a></h1>
-				<span><?php echo $site_tagline; ?></span>
+				<h1><a href="<?php echo url::site();?>"><img src="/themes/bueno/images/logo.png" alt="AyudaLaPlata.org" /></a></h1>
 			</div>
-			<?php else: ?>
-			<a href="<?php echo url::site();?>"><img src="<?php echo $banner; ?>" alt="<?php echo $site_name; ?>" /></a>
-			<?php endif; ?>
-			<!-- / logo -->
 
 			<!-- submit incident -->
 			<?php echo $submit_btn; ?>
 			<!-- / submit incident -->
 
-      <h3 style="font-size:16px; position:absolute; top:130px; right:-9px">
-        Número de emergencia: <span style="display:block; font-size:21px; text-align:center">0800 999 5959</span>
-      </h3>
+      <img src="/themes/bueno/images/emerg.png" id="emerg" alt="Emergencias: 0800 999 5959" />
 
 		</div>
 		<!-- / header -->
